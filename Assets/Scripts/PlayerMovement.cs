@@ -11,7 +11,9 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 moveInput;
     private Vector2 moveVelocity;
-    private Vector2 mousePosition;    
+    private Vector2 mousePosition;
+
+    public static float deceleration = 1;
 
     private void Awake()
     {
@@ -21,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        moveVelocity = moveInput.normalized * speedMovementPlayer;        
+        moveVelocity = moveInput.normalized * speedMovementPlayer * deceleration;        
 
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;        
     }
@@ -33,5 +35,5 @@ public class PlayerMovement : MonoBehaviour
         float angel = Mathf.Atan2(mousePosition.y, mousePosition.x) * Mathf.Rad2Deg;      
         float step = speedRotationPlayer * Time.fixedDeltaTime;
         transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0f, 0f, angel), step);
-    }
+    }    
 }
