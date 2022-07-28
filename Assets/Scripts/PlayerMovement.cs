@@ -3,9 +3,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [Tooltip("Unit per sec.")]
-    [SerializeField] private float speedMovementPlayer;
+    public float speedMovementPlayer;
     [Tooltip("Angular speed in degrees per sec.")]
-    [SerializeField] private float speedRotationPlayer;
+    public float speedRotationPlayer;
 
     private Rigidbody2D PlayerRB;
 

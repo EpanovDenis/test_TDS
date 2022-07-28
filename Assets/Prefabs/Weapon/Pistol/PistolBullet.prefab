@@ -261,4 +261,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedBullet: 20
+  damage: 1
   BulletPS: {fileID: 7360562879203507992, guid: 567875049944ecb4a9caf9840fd2401d, type: 3}
+  EnemyPS: {fileID: 7360562879203507992, guid: 3cea928c0a8f4924e817ad98b9732896, type: 3}

@@ -5,8 +5,8 @@ public class Weapon : MonoBehaviour
     public GameObject bullet;
     public Transform firePoint;
 
-    [SerializeField] private ParticleSystem fireShootPS;
-    [SerializeField] private float startRechargeTime;
+    public ParticleSystem fireShootPS;
+    public float startRechargeTime;
     private float rechargeTime;           
     
     void Update()
