@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1025879198650343620}
   - component: {fileID: 1025879198650343675}
   - component: {fileID: 1025879198650343622}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DecelerationZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

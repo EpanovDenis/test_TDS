@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6364113237302731595}
   - component: {fileID: 3187128682934309792}
-  m_Layer: 10
+  m_Layer: 18
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1030721764600187511}
   - component: {fileID: 9109302103023366067}
-  m_Layer: 10
+  m_Layer: 18
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 1414681938429550740}
   - component: {fileID: 1740150307619873478}
   - component: {fileID: 9159609919725904037}
-  m_Layer: 10
+  m_Layer: 18
   m_Name: PistolBullet
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -261,6 +261,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedBullet: 20
-  damage: 1
+  damage: 3
   BulletPS: {fileID: 7360562879203507992, guid: 567875049944ecb4a9caf9840fd2401d, type: 3}
-  EnemyPS: {fileID: 7360562879203507992, guid: 3cea928c0a8f4924e817ad98b9732896, type: 3}
+  EnemyPS: {fileID: 7360562879203507992, guid: d43bf0dba51fff742aa01fbeaab05a2e, type: 3}

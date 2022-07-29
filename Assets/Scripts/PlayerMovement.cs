@@ -1,10 +1,8 @@
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
-{
-    [Tooltip("Unit per sec.")]
-    public float speedMovementPlayer;
-    [Tooltip("Angular speed in degrees per sec.")]
+{    
+    public float speedMovementPlayer;    
     public float speedRotationPlayer;
 
     private Rigidbody2D PlayerRB;
