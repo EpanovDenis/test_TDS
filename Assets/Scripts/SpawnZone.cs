@@ -56,8 +56,7 @@ public class SpawnZone : MonoBehaviour
             GenerateRandomPoint();
             check = CheckPosition(spawnPosition, radiusDeathZone, distanseToObject);
             if (check == false)
-            {
-                Debug.Log("Смена позиции");
+            {                
                 amountDeathZone++;
                 GenerateRandomPoint();
             }
@@ -72,8 +71,7 @@ public class SpawnZone : MonoBehaviour
             GenerateRandomPoint();
             CheckPosition(spawnPosition, radiusDecelerationZone, distanseToObject);
             if (check == false)
-            {
-                Debug.Log("Смена позиции");
+            {                
                 amountDecelerationZone++;
                 GenerateRandomPoint();
             }

@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Bullet
   - Enemy
+  - Pistol
+  - MachineGun
+  - ShotGun
+  - GrenadeGun
+  - Shield
   layers:
   - Default
   - TransparentFX
@@ -17,8 +22,8 @@ TagManager:
   - Solid
   - Camera
   - Enemy
-  - 
-  - 
+  - Bullet
+  - Shield
   - 
   - 
   - 
